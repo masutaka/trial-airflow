@@ -1,6 +1,7 @@
 ## Apache Airflow とは
 
-:airflow: https://airflow.apache.org/
+* https://airflow.apache.org/
+* https://github.com/apache/airflow
 
 ワークフローをスケジューリング、モニタリングするためのツール。ワークフローエンジンと呼ぶらしい。
 
@@ -12,7 +13,7 @@
 
 試すだけなら Docker を使うのがお手軽。
 
-:airflow: https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
 
 ### Initialise and Running Airflow
 
