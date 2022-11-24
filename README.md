@@ -5,6 +5,8 @@
 
 ワークフローをスケジューリング、モニタリングするためのツール。ワークフローエンジンと呼ぶらしい。
 
+GCP だとマネージドサービスとして [Cloud Composer](https://cloud.google.com/composer?hl=ja)、AWS は [Managed Workflows for Apache Airflow (MWAA)](https://aws.amazon.com/jp/managed-workflows-for-apache-airflow/) がある。
+
 他の代表的なワークフローエンジンには「[Digdag](https://www.digdag.io/)」「[Argo](https://argoproj.github.io/argo-workflows/)」「[Prefect](https://www.prefect.io/)」があるらしい。おお、Argo って [Argo CD](https://argoproj.github.io/cd/) の仲間なのね。
 
 [以前 embulk を試した](https://github.com/masutaka/trial-embulk)こともあり、Digdag は昔から知っていたのだけど、データ基盤の文脈だと Airflow をよく目にする。気のせいかもしれない。
@@ -14,6 +16,8 @@
 試すだけなら Docker を使うのがお手軽。
 
 https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+↓
+https://airflow.apache.org/docs/apache-airflow/stable/tutorial/fundamentals.html
 
 ### Initialise and Running Airflow
 
