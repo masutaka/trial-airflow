@@ -50,3 +50,9 @@ user: airflow, password: airflow
 ```
 $ docker-compose down --volumes --remove-orphans --rmi all
 ```
+
+## Cloud Composer
+
+この記事は良かった。
+[Cloud Composer で Airflow 環境を立ち上げて、GCS から BigQuery へのデータロードを実行してみた | DevelopersIO](https://dev.classmethod.jp/articles/cloud-composer-airflow-load-data-to-bigquery/)
+
