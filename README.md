@@ -48,6 +48,5 @@ user: airflow, password: airflow
 ### Cleaning up
 
 ```
-# $ docker-compose down --volumes --remove-orphans
-$ docker-compose down --volumes --rmi all
+$ docker-compose down --volumes --remove-orphans --rmi all
 ```
